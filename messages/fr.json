@@ -1,6 +1,6 @@
 {
   "person": {
-    "role": "Développeur Web"
+    "role": "Développeur Web & Mobile - Formateur Javascript / React"
   },
   "newsletter": {
     "title": "Abonnez-vous à la newsletter de {firstName}",
@@ -18,6 +18,9 @@
     "label": "À propos",
     "title": "À propos de moi",
     "description": "Rencontrez {name}, {role} de {location}",
+    "calendar": {
+      "scheduleCall": "Planifier un appel"
+    },
     "intro": {
       "title": "Introduction",
       "description": "Je suis développeur et formateur passionné, et j'aide mes clients à donner vie à leurs projets numériques. Que ce soit pour créer une application, un site web, ou pour accompagner des débutants en développement, je mets mon expertise à votre service pour des solutions simples, modernes et efficaces."
@@ -34,11 +37,16 @@
           "timeframe": "Été 2024",
           "role": "Développeur Web",
           "achievements": "Développement et mise en production du site web de l'entreprise"
+        },
+        "SAFEBEAR": {
+          "timeframe": "Été 2022",
+          "role": "Développeur Web",
+          "achievements": "Réalisation d'un POC (Proof of Concept) pour le CEO de Safebear"
         }
       }
     },
     "studies": {
-      "title": "Studies",
+      "title": "Études",
       "institutions": {
         "University of Jakarta": {
           "description": "Studied software engineering."
@@ -49,13 +57,16 @@
       }
     },
     "technical": {
-      "title": "Technical skills",
+      "title": "Compétences techniques",
       "skills": {
-        "Figma": {
-          "description": "Able to prototype in Figma with Once UI with unnatural speed."
+        "Javascript": {
+          "description": "Mise en place de projets côté client ou serveur basés sur l'écosystème Javascript (React, Node.js, Express, TypeScript, Feathers, Three.js etc.) de l'initiation de projet à la mise en production."
         },
-        "Nextjs": {
-          "description": "Building next gen apps with Next.js + Once UI + Supabase."
+        "ReactNative": {
+          "description": "Développement d'applications mobiles multi-plateformes avec React Native, de la conception à la publication sur les stores."
+        },
+        "CreativeDevelopment": {
+          "description": "Ancien ingénieur du son et compositeur de musique, je mets à profit mes compétences créatives pour concevoir des expériences interactives et immersives. Ma maitrise des outils de création 3D (Blender, Three.JS) me permet de proposer des solutions innovantes et originales."
         }
       }
     }
@@ -76,6 +87,6 @@
     "description": "Une collection de photo par {name}"
   },
   "projectCard": {
-    "label": "Read Case Study"
+    "label": "En découvrir plus"
   }
 }

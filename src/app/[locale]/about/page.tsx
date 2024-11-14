@@ -145,7 +145,7 @@ export default function About({ params: { locale } }: { params: { locale: string
                 <Flex paddingLeft='12'>
                   <Icon name='calendar' onBackground='brand-weak' />
                 </Flex>
-                <Flex paddingX='8'>Schedule a call</Flex>
+                <Flex paddingX='8'>{about.calendar.scheduleCall}</Flex>
                 <IconButton href={about.calendar.link} data-border='rounded' variant='tertiary' icon='chevronRight' />
               </Flex>
             )}
@@ -262,7 +262,9 @@ export default function About({ params: { locale } }: { params: { locale: string
               <Flex direction='column' fillWidth gap='l'>
                 {about.technical.skills.map((skill, index) => (
                   <Flex key={`${skill}-${index}`} fillWidth gap='4' direction='column'>
-                    <Text variant='heading-strong-l'>{skill.title}</Text>
+                    <Text variant='heading-strong-l' id={skill.title}>
+                      {skill.title}
+                    </Text>
                     <Text variant='body-default-m' onBackground='neutral-weak'>
                       {skill.description}
                     </Text>

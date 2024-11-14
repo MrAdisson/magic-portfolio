@@ -1,6 +1,6 @@
 {
   "person": {
-    "role": "Design Engineer"
+    "role": "Web & Mobile Developer"
   },
   "newsletter": {
     "title": "Subscribe to {firstName}'s Newsletter",
@@ -18,9 +18,12 @@
     "label": "About",
     "title": "About me",
     "description": "Meet {name}, {role} from {location}",
+    "calendar": {
+      "scheduleCall": "Schedule a call"
+    },
     "intro": {
       "title": "Introduction",
-      "description": "Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology."
+      "description": "I'm a passionate developer and trainer, and I help my clients bring their digital projects to life. Whether it's creating an application, a website, or supporting beginners in development, I put my expertise at your service for simple, modern, and effective solutions."
     },
     "work": {
       "title": "Work Experience",
@@ -28,12 +31,17 @@
         "ANKAMA": {
           "timeframe": "2022 - 2024",
           "role": "Web & Mobile Developer",
-          "achievements": "Développement, publication et maintenance des applications Krosmoz et Allskreen"
+          "achievements": "Development, publication, and maintenance of Krosmoz and Allskreen applications"
         },
         "HARFANG": {
           "timeframe": "Summer 2024",
           "role": "Web Developer",
-          "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
+          "achievements": "Developed and launched the company's website"
+        },
+        "SAFEBEAR": {
+          "timeframe": "Summer 2022",
+          "role": "Web Developer",
+          "achievements": "Developed a POC (Proof of Concept) for Safebear's CEO"
         }
       }
     },
@@ -51,11 +59,14 @@
     "technical": {
       "title": "Technical skills",
       "skills": {
-        "Figma": {
-          "description": "Able to prototype in Figma with Once UI with unnatural speed."
+        "Javascript": {
+          "description": "Setting up client or server projects based on the Javascript ecosystem (React, Node.js, Express, TypeScript, Feathers, Three.js etc.) from project initiation to production."
         },
-        "Nextjs": {
-          "description": "Building next gen apps with Next.js + Once UI + Supabase."
+        "ReactNative": {
+          "description": "Developing cross-platform mobile applications with React Native, from design to publication on stores."
+        },
+        "CreativeDevelopment": {
+          "description": "Former sound engineer and music composer, I leverage my creative skills to design interactive and immersive experiences. My mastery of 3D creation tools (Blender, Three.JS) allows me to offer innovative and original solutions."
         }
       }
     }

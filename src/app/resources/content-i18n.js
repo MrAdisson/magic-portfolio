@@ -12,7 +12,7 @@ const createI18nContent = (t) => {
   };
 
   const newsletter = {
-    display: true,
+    display: false,
     title: <>{t('newsletter.title', { firstName: person.firstName })}</>,
     description: <>{t('newsletter.description')}</>,
   };
@@ -64,6 +64,7 @@ const createI18nContent = (t) => {
     calendar: {
       display: true,
       link: 'https://cal.com',
+      scheduleCall: t('about.calendar.scheduleCall'),
     },
     intro: {
       display: true,
@@ -109,6 +110,13 @@ const createI18nContent = (t) => {
             },
           ],
         },
+        {
+          company: 'Safebear',
+          timeframe: t('about.work.experiences.SAFEBEAR.timeframe'),
+          role: t('about.work.experiences.SAFEBEAR.role'),
+          achievements: t('about.work.experiences.SAFEBEAR.achievements').split(';'),
+          images: [],
+        },
       ],
     },
     studies: {
@@ -130,34 +138,51 @@ const createI18nContent = (t) => {
       title: t('about.technical.title'),
       skills: [
         {
-          title: 'Figma',
-          description: <>{t('about.technical.skills.Figma.description')}</>,
+          title: 'Javascript Typescript React Node',
+          description: <>{t('about.technical.skills.Javascript.description')}</>,
           images: [
             {
-              src: '/images/projects/project-01/cover-02.jpg',
-              alt: 'Project image',
+              src: '/images/skills/javascript/react.png',
+              alt: 'React image',
               width: 16,
               height: 9,
             },
             {
-              src: '/images/projects/project-01/cover-03.jpg',
-              alt: 'Project image',
+              src: '/images/skills/javascript/vite.png',
+              alt: 'Vite image',
+              width: 16,
+              height: 9,
+            },
+            {
+              src: '/images/skills/javascript/node.png',
+              alt: 'Node JS image',
+              width: 16,
+              height: 9,
+            },
+            {
+              src: '/images/skills/javascript/threejs.png',
+              alt: 'Three JS image',
               width: 16,
               height: 9,
             },
           ],
         },
         {
-          title: 'Next.js',
-          description: <>{t('about.technical.skills.Nextjs.description')}</>, // "." not accepted in next-intl namespace
+          title: 'Développement Mobile avec React Native',
+          description: <>{t('about.technical.skills.ReactNative.description')}</>,
           images: [
             {
-              src: '/images/projects/project-01/cover-04.jpg',
-              alt: 'Project image',
+              src: '/images/skills/javascript/reactnative.png',
+              alt: 'React Native image',
               width: 16,
               height: 9,
             },
           ],
+        },
+        {
+          title: 'Développement Créatif',
+          description: <>{t('about.technical.skills.CreativeDevelopment.description')}</>,
+          images: [],
         },
       ],
     },
