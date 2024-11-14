@@ -207,7 +207,7 @@ export default function About({ params: { locale } }: { params: { locale: string
                       ))}
                     </Flex>
                     {experience.images.length > 0 && (
-                      <Flex fillWidth paddingTop='m' paddingLeft='40' wrap>
+                      <Flex fillWidth paddingTop='m' paddingLeft='40' gap='12' wrap>
                         {experience.images.map((image, index) => (
                           <Flex
                             key={index}

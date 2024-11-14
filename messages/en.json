@@ -12,7 +12,7 @@
     "title": "{name}'s Portfolio",
     "description": "Portfolio website showcasing my work as a {role}",
     "headline": "Design engineer and builder",
-    "subline": "I'm Selene, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
+    "subline": "Hi ! I'm Cédric, a freelance web developer. Let's take a coffee ! ☕️"
   },
   "about": {
     "label": "About",
@@ -25,14 +25,14 @@
     "work": {
       "title": "Work Experience",
       "experiences": {
-        "FLY": {
-          "timeframe": "2022 - Present",
-          "role": "Senior Design Engineer",
-          "achievements": "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.;Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
+        "ANKAMA": {
+          "timeframe": "2022 - 2024",
+          "role": "Web & Mobile Developer",
+          "achievements": "Développement, publication et maintenance des applications Krosmoz et Allskreen"
         },
-        "Creativ3": {
-          "timeframe": "2018 - 2022",
-          "role": "Lead Designer",
+        "HARFANG": {
+          "timeframe": "Summer 2024",
+          "role": "Web Developer",
           "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
         }
       }

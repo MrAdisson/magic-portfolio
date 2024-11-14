@@ -82,7 +82,13 @@ const createI18nContent = (t) => {
           images: [
             // optional: leave the array empty if you don't want to display images
             {
-              src: '/images/projects/project-01/cover-01.jpg',
+              src: '/images/projects/project-01/krosmoz02.png',
+              alt: 'Once UI Project',
+              width: 16,
+              height: 9,
+            },
+            {
+              src: '/images/projects/project-01/allskreen2.png',
               alt: 'Once UI Project',
               width: 16,
               height: 9,
@@ -94,12 +100,19 @@ const createI18nContent = (t) => {
           timeframe: t('about.work.experiences.HARFANG.timeframe'),
           role: t('about.work.experiences.HARFANG.role'),
           achievements: t('about.work.experiences.HARFANG.achievements').split(';'),
-          images: [],
+          images: [
+            {
+              src: '/images/projects/project-01/harfang02.png',
+              alt: 'Once UI Project',
+              width: 16,
+              height: 9,
+            },
+          ],
         },
       ],
     },
     studies: {
-      display: true, // set to false to hide this section
+      display: false, // set to false to hide this section
       title: 'Studies',
       institutions: [
         {

@@ -8,11 +8,11 @@
     "button": "Sign up"
   },
   "home": {
-    "label": "Home",
+    "label": "Accueil",
     "title": "Portfolio de {name}",
-    "description": "Portfolio website showcasing my work as a {role}",
+    "description": "Site web portfolio présentant mon travail en tant que {role}",
     "headline": "Développeur créatif et formateur passionné",
-    "subline": "On partage un café ? ☕️"
+    "subline": "Hey ! Je suis Cédric, un développeur web créatif freelance. On partage un café ? ☕️"
   },
   "about": {
     "label": "À propos",
@@ -33,7 +33,7 @@
         "HARFANG": {
           "timeframe": "Été 2024",
           "role": "Développeur Web",
-          "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
+          "achievements": "Développement et mise en production du site web de l'entreprise"
         }
       }
     },
@@ -66,14 +66,14 @@
     "description": "Read what {name} has been up to recently"
   },
   "work": {
-    "label": "Work",
-    "title": "My projects",
-    "description": "Design and dev projects by {name}"
+    "label": "Projets",
+    "title": "Mes projets",
+    "description": "Projets & design par {name}"
   },
   "gallery": {
-    "label": "Gallery",
-    "title": "My photo gallery",
-    "description": "A photo collection by {name}"
+    "label": "Galerie",
+    "title": "Ma galerie photo",
+    "description": "Une collection de photo par {name}"
   },
   "projectCard": {
     "label": "Read Case Study"
