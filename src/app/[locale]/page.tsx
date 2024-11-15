@@ -95,7 +95,6 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             <Flex fillWidth>
               {about.calendar.display && (
                 <Flex
-                  //   className={styles.blockAlign}
                   style={{
                     backdropFilter: 'blur(var(--static-space-1))',
                     border: '1px solid var(--brand-alpha-medium)',

@@ -74,7 +74,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: 'https://cal.com',
+    link: 'https://cal.com/cedric-adisson',
     scheduleCall: 'Schedule a call',
   },
   intro: {
