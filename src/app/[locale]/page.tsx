@@ -1,9 +1,8 @@
 import { Projects } from '@/components/work/Projects';
-import { Arrow, Avatar, Button, Flex, Heading, Icon, IconButton, RevealFx, Text } from '@/once-ui/components';
+import { Arrow, Avatar, Button, Flex, Heading, RevealFx, Text } from '@/once-ui/components';
 
 import { baseURL, renderContent, routes } from '@/app/resources';
 import { Mailchimp } from '@/components';
-import styles from '@/components/about/about.module.scss';
 import { Posts } from '@/components/blog/Posts';
 import { useTranslations } from 'next-intl';
 
@@ -94,7 +93,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                 </Flex>
               </Button>
             </Flex>
-            <Flex fillWidth>
+            {/* <Flex fillWidth>
               {about.calendar.display && (
                 <Flex
                   className={styles.blockAlign}
@@ -119,7 +118,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                   <IconButton href={about.calendar.link} data-border='rounded' variant='tertiary' icon='chevronRight' />
                 </Flex>
               )}
-            </Flex>
+            </Flex> */}
           </RevealFx>
         </Flex>
       </Flex>
