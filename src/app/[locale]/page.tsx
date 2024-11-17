@@ -3,8 +3,10 @@ import { Arrow, Avatar, Button, Flex, Heading, Icon, IconButton, RevealFx, Text 
 
 import { baseURL, renderContent, routes } from '@/app/resources';
 import { Mailchimp } from '@/components';
+import styles from '@/components/about/about.module.scss';
 import { Posts } from '@/components/blog/Posts';
 import { useTranslations } from 'next-intl';
+
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
@@ -95,6 +97,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             <Flex fillWidth>
               {about.calendar.display && (
                 <Flex
+                  className={styles.blockAlign}
                   style={{
                     backdropFilter: 'blur(var(--static-space-1))',
                     border: '1px solid var(--brand-alpha-medium)',
